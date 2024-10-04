@@ -1,11 +1,12 @@
 my_string = input("Введите ваше имя: ") #создаю переменную
+my_string=my_string.replace(' ','') #удаляю все пробелы в ведённом имени
 print ("ваше имя состоит из :",len(my_string),"символов.") #Вывожу количество символов введённого имени
 print(my_string.upper())   #вывод имени в верхнем регистре
 print(my_string.lower())   #вывод имени в нижнем регистре
 print(my_string.replace('',' '))  #вывод имени с  пробелами
-print(my_string.replace(' ',''))  #вывод имени без пробелов
-print(my_string[0])
-print(my_string[-1])
+print(my_string[0])  #Вывод первого символа имени
+print(my_string[-1]) #Вывод последнего символа имени
+
 
 
 
